@@ -1,0 +1,70 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: blinken
+Upstream-Contact: kde-edu@kde.org,
+                  Albert Astals Cid <aacid@kde.org>,
+                  Ian Monroe <ian.monroe@gmail.com>,
+                  Jeremy Paul Whiting <jpwhiting@kde.org>
+Source: git://anongit.kde.org/blinken
+Comment: This package was developed for Ubuntu by the Kubuntu Developers and
+ modified to be included in Debian. See below the copyright holders for debian/*
+ files.
+
+Files: *
+Copyright: 2005-2007, Albert Astals Cid <aacid@kde.org>
+           2005-2007, Danny Allen <danny@dannyallen.co.uk>
+License: GPL-2+
+
+Files: doc/*
+Copyright: 2005-2007, Danny Allen <danny@dannyallen.co.uk>
+License: GFDL-1.2+
+ Permission is granted to copy, distribute and/or modify this document
+ under the terms of the GNU Free Documentation License, Version 1.2
+ or any later version published by the Free Software Foundation;
+ with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.
+ .
+ On Debian systems, the full text of the GNU Free Documentation
+ License version 1.2 can be found in the file
+ `/usr/share/common-licenses/GFDL-1.2'.
+
+Files: fonts/*
+Copyright: Steve JORDI <steve@sjordi.com>
+License: GPL
+ SJFonts are licensed under the GNU General Public License but with the
+ following exception:
+ .
+ As a special exception, if you create a document which uses this font,
+ and embed this font or unaltered portions of this font into the document,
+ this font does not by itself cause the resulting document to be covered by
+ the GNU General Public License. This exception does not however invalidate
+ any other reasons why the document might be covered by the GNU General Public
+ License. If you modify this font, you may extend this exception to your
+ version of the font, but you are not obligated to do so. If you do not wish
+ to do so, delete this exception statement from your version.
+ .
+ On Debian systems, the full text of the GNU General Public License can be
+ found in the file `/usr/share/common-licenses/GPL'.
+
+Files: debian/*
+Copyright: 2011, Harald Sitter <apachelogger@ubuntu.com>
+License: GPL-2+
+
+License: GPL-2+
+ This program is free software; you can redistribute it
+ and/or modify it under the terms of the GNU General Public
+ License as published by the Free Software Foundation; either
+ version 2 of the License, or (at your option) any later
+ version.
+ .
+ This program is distributed in the hope that it will be
+ useful, but WITHOUT ANY WARRANTY; without even the implied
+ warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+ PURPOSE.  See the GNU General Public License for more
+ details.
+ .
+ You should have received a copy of the GNU General Public
+ License along with this package; if not, write to the Free
+ Software Foundation, Inc., 51 Franklin St, Fifth Floor,
+ Boston, MA  02110-1301 USA
+ .
+ On Debian systems, the full text of the GNU General Public License version 2
+ can be found in the file `/usr/share/common-licenses/GPL-2'.

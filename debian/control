@@ -1,0 +1,45 @@
+Source: blinken
+Section: kde
+Priority: optional
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Norbert Preining <norbert@preining.info>,
+           Sune Vuorela <sune@debian.org>,
+Build-Depends: cmake (>= 3.5~),
+               debhelper-compat (= 13),
+               extra-cmake-modules (>= 5.55.0~),
+               gettext,
+               libkf5crash-dev (>= 5.55.0~),
+               libkf5dbusaddons-dev (>= 5.55.0~),
+               libkf5doctools-dev (>= 5.55.0~),
+               libkf5guiaddons-dev (>= 5.55.0~),
+               libkf5i18n-dev (>= 5.55.0~),
+               libkf5xmlgui-dev (>= 5.55.0~),
+               libphonon4qt5-dev,
+               libphonon4qt5experimental-dev,
+               libqt5svg5-dev (>= 5.10.0~),
+               pkg-kde-tools (>> 0.15.15),
+               qtbase5-dev (>= 5.10.0~),
+Standards-Version: 4.5.1
+Rules-Requires-Root: no
+Homepage: https://edu.kde.org/applications/all/blinken
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/blinken
+Vcs-Git: https://salsa.debian.org/qt-kde-team/kde/blinken.git
+
+Package: blinken
+Architecture: any
+Depends: fonts-sjfonts, ${misc:Depends}, ${shlibs:Depends}
+Section: games
+Suggests: khelpcenter
+Breaks: ${kde-l10n:all}
+Replaces: ${kde-l10n:all}
+Description: KDE version of the Simon electronic memory game
+ Blinken is based on an electronic game released in 1978, which
+ challenges players to remember sequences of increasing length.  On
+ the face of the device, there are 4 different color buttons, each
+ with its own distinctive sound.  These buttons light up randomly,
+ creating the sequence that the player must then recall.  If the
+ player is successful in remembering the sequence of lights in the
+ correct order, they advance to the next stage, where an identical
+ sequence with one extra step is presented.
+ .
+ This package is part of the KDE education module.
